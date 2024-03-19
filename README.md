@@ -20,7 +20,6 @@ Download the checkpoints from [Google Drive]() or [Baidu Netdisk](https://pan.ba
 
 - `./checkpoints/COCO-final.ckpt`
 - `./checkpoints/main-epoch=00-step=7000.ckpt`
-- `./models/cldm_v15.yaml`
 - `./models/control_sd15_ini.ckpt`
 
 #### 1. Test
