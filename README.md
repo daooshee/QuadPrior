@@ -2,7 +2,11 @@
 
 This is the official PyTorch code for our paper Zero-Reference Low-Light Enhancement via Physical Quadruple Priors
 
-Authors: Wenjing Wang, Huan Yang, Jianlong Fu, Jiaying Liu
+Authors: [Wenjing Wang](https://daooshee.github.io/website/), [Huan Yang](https://hyang0511.github.io/), [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), [Jiaying Liu](http://www.wict.pku.edu.cn/struct/people/liujiaying.html)
+
+![Framework](Framework.jpg)
+
+> In this paper, we propose a new zero-reference low-light enhancement framework trainable solely with normal light images. To accomplish this, we devise an illumination-invariant prior inspired by the theory of physical light transfer. This prior serves as the bridge between normal and low-light images. Then, we develop a prior-to-image framework trained without low-light data. During testing, this framework is able to restore our illumination-invariant prior back to images, automatically achieving low-light enhancement. Within this framework, we leverage a pretrained generative diffusion model for model ability, introduce a bypass decoder to handle detail distortion, as well as offer a lightweight version for practicality.
 
 #### 0. Preparation
 
@@ -53,6 +57,8 @@ If you want to train from scratch, please set `resume_path=''`. Currently it con
 
 -------
 
+If you have any questions, you can submit an Issue or contact daooshee at pku.edu.cn
+
 If you find our code useful, please consider citing our paper.
 
 ```
@@ -66,4 +72,4 @@ If you find our code useful, please consider citing our paper.
 
 -------
 
-This code is based on [ControlNet](https://github.com/lllyasviel/ControlNet), 
+This code is based on [ControlNet](https://github.com/lllyasviel/ControlNet) 
