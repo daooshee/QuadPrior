@@ -6,6 +6,8 @@ Authors: [Wenjing Wang](https://daooshee.github.io/website/), [Huan Yang](https:
 
 ![Framework](Framework.jpg)
 
+Keywords: train solely using normal light images, illumination-invariant prior, generative diffusion models
+
 > In this paper, we propose a new zero-reference low-light enhancement framework trainable solely with normal light images. To accomplish this, we devise an illumination-invariant prior inspired by the theory of physical light transfer. This prior serves as the bridge between normal and low-light images. Then, we develop a prior-to-image framework trained without low-light data. During testing, this framework is able to restore our illumination-invariant prior back to images, automatically achieving low-light enhancement. Within this framework, we leverage a pretrained generative diffusion model for model ability, introduce a bypass decoder to handle detail distortion, as well as offer a lightweight version for practicality.
 
 #### 0. Preparation
