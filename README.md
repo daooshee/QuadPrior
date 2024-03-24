@@ -18,7 +18,7 @@ conda env create -f environment.yaml
 conda activate quadprior
 ```
 
-Download the checkpoints from [Google Drive]() or [Baidu Netdisk](https://pan.baidu.com/s/10sKrFyCHBQCVk76Y33wJlw?pwd=j9kv) and **replace the empty files** as follows (required for both training and testing)
+Download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1NbqfOJYjv-_zH1NzTaaLmZDKjYA9clbd?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/10sKrFyCHBQCVk76Y33wJlw?pwd=j9kv) and **replace the empty files** as follows (required for both training and testing)
 
 - `./checkpoints/COCO-final.ckpt`
 - `./checkpoints/main-epoch=00-step=7000.ckpt`
