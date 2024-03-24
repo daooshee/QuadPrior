@@ -47,7 +47,7 @@ Our model is trained solely with the [COCO dataset](https://cocodataset.org/).
 
 In `train.py`, write the path to COCO images as `coco_images`, following the format of [glob.glob](https://docs.python.org/3/library/glob.html).
 
-For example, you may download the train and unlabeled sets and save them as './COCO-2017/train2017/' and './COCO-2017/unlabeled2017/'
+For example, you may download the train and unlabeled sets and save them as `./COCO-2017/train2017/` and `./COCO-2017/unlabeled2017/`
 
 ##### 2.2 Train
 Other parameters can be edited in `train.py`, such as batch size (`batch_size`), number of GPUs (`number_of_gpu`), learning rate (`learning_rate`), how frequently to save visualization (`logger_freq`).
