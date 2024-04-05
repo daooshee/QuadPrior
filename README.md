@@ -43,6 +43,8 @@ By default, the inference code uses float16. On NVIDIA GeForce RTX 4090, the inf
 
 Ready-made results on LOL-v1, LOL-v2 (real), MIT Adobe FiveK, DICM, LIME, MEF, NPE, and VV datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1NbqfOJYjv-_zH1NzTaaLmZDKjYA9clbd?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/10sKrFyCHBQCVk76Y33wJlw?pwd=j9kv).
 
+About metrics, we use BRISQUE from [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) and NL from [noise_est_ICCV2015](https://github.com/zsyOAOA/noise_est_ICCV2015). PSNR, SSIM, LPIPS, and LOE can be found in `./paired-metrics.py`.
+
 #### 2. Train
 
 ##### 2.1 Data Preparation
@@ -60,6 +62,8 @@ By default, the training uses float16 and deepspeed stage 2, offload optimizer, 
 On NVIDIA GeForce RTX 4090, setting 4 batches per GPU takes 20GB memory for each GPU. We use 2 GPUs to train the framework.
 
 If you want to train from scratch, please set `resume_path=''`. Currently it continues training from `checkpoints/COCO-final.ckpt`.
+
+For evaluating the trained checkpoint, you might need to adjust the code for loading the checkpoint. Please refer to this [issue](https://github.com/daooshee/QuadPrior/issues/2) for more details.
 
 -------
 
