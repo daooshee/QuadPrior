@@ -41,7 +41,7 @@ Expected results can be found in `./output_QuadPrior-reference` for reference.
 
 By default, the inference code uses float16. On NVIDIA GeForce RTX 4090, the inference requires about 13GB of GPU memory.
 
-Ready-made results on LOL-v1, LOL-v2 (real), MIT Adobe FiveK, DICM, LIME, MEF, NPE, and VV datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1NbqfOJYjv-_zH1NzTaaLmZDKjYA9clbd?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/10sKrFyCHBQCVk76Y33wJlw?pwd=j9kv).
+> Ready-made results on LOL-v1, LOL-v2 (real), MIT Adobe FiveK, DICM, LIME, MEF, NPE, and VV datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1NbqfOJYjv-_zH1NzTaaLmZDKjYA9clbd?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/10sKrFyCHBQCVk76Y33wJlw?pwd=j9kv).
 
 About metrics, we use BRISQUE from [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) and NL from [noise_est_ICCV2015](https://github.com/zsyOAOA/noise_est_ICCV2015). PSNR, SSIM, LPIPS, and LOE can be found in `./paired-metrics.py`.
 
