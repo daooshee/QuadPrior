@@ -20,7 +20,7 @@ Create a new conda environment
 conda env create -f environment.yaml
 conda activate quadprior
 ```
-You may refer to https://pytorch.org/get-started/previous-versions/ for more information about installing old pytorch (1.12.1) versions.
+You may refer to https://pytorch.org/get-started/previous-versions/ for more information about installing old pytorch (1.12.1) versions. Some of the common environment configuration problems and solutions can be found in [Issues](https://github.com/daooshee/QuadPrior/issues?q=).
 
 Download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1NbqfOJYjv-_zH1NzTaaLmZDKjYA9clbd?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/10sKrFyCHBQCVk76Y33wJlw?pwd=j9kv) and replace the empty files as follows (required for both training and testing)
 
